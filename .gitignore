@@ -1,3 +1,5 @@
+*.json
+
 *.py[co]
 *.csv
 
