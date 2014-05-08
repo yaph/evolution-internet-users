@@ -1,14 +1,14 @@
 # Evolution of Internet Users
 
 Scripts to pre-process data for creating the
-[Evolution of Internet Users])(http://exploringdata.github.io/vis/evolution-internet-users/) visualization.
+[Evolution of Internet Users](http://exploringdata.github.io/vis/evolution-internet-users/) visualization.
 The data is downloaded from the [Worldbank Databank](http://databank.worldbank.org/data/views/reports/tableview.aspx)
 
 ## Required Indicators
 
-x-axis: NY.GDP.PCAP.CD - GDP per capita (current US$)
-y-axis: IT.NET.USER.P2 - Internet users (per 100 people)
-bubble size: SP.POP.TOTL - Population, total
+* x-axis: NY.GDP.PCAP.CD - GDP per capita (current US$)
+* y-axis: IT.NET.USER.P2 - Internet users (per 100 people)
+* bubble size: SP.POP.TOTL - Population, total
 
 ## Enhancements
 
