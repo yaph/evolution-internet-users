@@ -33,18 +33,17 @@ with open(args.csv, 'rb') as f:
     r = csv.reader(f)
     headings = r.next()
     for row in r:
-        iso = wbfixes.get_iso(row[3])
+        iso = wbfixes.get_iso(row[1])
         if not iso: continue
 
-        indicator = row[0]
-        indicatorid = row[1]
+        indicator = row[2]
+        indicatorid = row[3]
 
-        print(iso)
         region = continents[countries_by_iso[iso]['continentcode']]['name']
 
         if iso not in countries:
             countries[iso] = {
-                'name': row[2],
+                'name': row[0],
                 'region': region,
             }
         # data per year starts with column index 4
