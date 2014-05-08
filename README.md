@@ -2,7 +2,7 @@
 
 Scripts to pre-process data for creating the
 [Evolution of Internet Users](http://exploringdata.github.io/vis/evolution-internet-users/) visualization.
-The data is downloaded from the [Worldbank Databank](http://databank.worldbank.org/data/views/reports/tableview.aspx)
+The data is downloaded from the [Worldbank Databank](http://databank.worldbank.org/data/views/reports/tableview.aspx).
 
 ## Required Indicators
 
